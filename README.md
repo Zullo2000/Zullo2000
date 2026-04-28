@@ -10,14 +10,13 @@ Currently AI Engineer at **Davis AI** (Paris). Previously Quant Researcher at **
 
 ### What I'm working on
 
-**Reading & writing**
-- [Discrete Diffusion for Constrained Generation: A Literature Review (PDF)](https://github.com/Zullo2000/Zullo2000/releases/latest/download/Literature_Review_Discrete_Diffusion.pdf) — survey of MDLM, ReMDM, MELD, DiGress, DeFoG, and inference-time guidance (SVDD, SearchDiff, CSMC, ConStruct).
+**[Discrete Diffusion for Constrained Generation: A Literature Review (PDF)](https://github.com/Zullo2000/Zullo2000/releases/latest/download/Literature_Review_Discrete_Diffusion.pdf)**: Literature Review on Discrete Diffusion papers I found useful.
 
-**[Discrete Diffusion for Architectural Design](https://github.com/Zullo2000/BD_Generation_Public)** — A masked discrete diffusion model that generates valid residential floorplan graphs with inference-time constraint guidance, achieving 73.5% constraint satisfaction without retraining. Built at Davis AI. 
+**[Discrete Diffusion for Architectural Design](https://github.com/Zullo2000/BD_Generation_Public)**: A masked discrete diffusion model that generates valid residential floorplan graphs with inference-time constraint guidance, achieving 73.5% constraint satisfaction without retraining. Built at Davis AI. 
 
-**[Why Graph Diffusion Breaks Molecules](https://github.com/Zullo2000/why-graph-diffusion-breaks-molecules)** — An empirical and theoretical analysis showing that independent edge noise in discrete graph diffusion is structurally blind: molecular graphs disconnect at t/T ~ 0.08 when 98% of edges are still intact. Proposes structure-aware corruption schedules as a fix.
+**[Why Graph Diffusion Breaks Molecules](https://github.com/Zullo2000/why-graph-diffusion-breaks-molecules)**: An empirical and theoretical analysis showing that independent edge noise in discrete graph diffusion is structurally blind: molecular graphs disconnect at t/T ~ 0.08 when 98% of edges are still intact. Proposes structure-aware corruption schedules as a fix.
 
-**[Neural Fokker-Planck Equations](https://github.com/Zullo2000/neural-fokker-planck)** — Learning SDEs from distribution snapshots via deterministic moment dynamics. No SDE simulation, no density estimation, no trajectory tracking — 24x faster than Neural SDEs at comparable accuracy.
+**[Neural Fokker-Planck Equations](https://github.com/Zullo2000/neural-fokker-planck)**: Learning SDEs from distribution snapshots via deterministic moment dynamics. No SDE simulation, no density estimation, no trajectory tracking. 24x faster than Neural SDEs at comparable accuracy.
 
 ---
 
