@@ -1,16 +1,18 @@
 # Hi, I'm Alessandro Zuliani
 
-**Applied Mathematician & AI Engineer** specializing in generative models for structured data.
+**Applied Mathematician & AI Scientist** specializing in generative models for structured data.
 
-I work on diffusion models, flow matching, and stochastic processes, with a focus on making these methods work on discrete and graph-structured domains where standard continuous approaches break down. Currently also developing a continuous score-based diffusion model inspired by [Riemannian Score-Based Generative Modelling](https://arxiv.org/abs/2203.02923).
+I work on diffusion models, flow matching, and stochastic processes, with applications to discrete, continuous, and hybrid discrete-continuous domains. Current focus: constrained generation under mixed modalities (categorical + geometric), with inference-time guidance to enforce complex user constraints without retraining.
 
 Currently AI Engineer at **Davis AI** (Paris). Previously Quant Researcher at **CFM** (Paris).
 
 ---
 
-### What I'm working on
+### What I've worked on
 
 **[Discrete Diffusion for Constrained Generation: A Literature Review (PDF)](https://github.com/Zullo2000/Zullo2000/releases/latest/download/Literature_Review_Discrete_Diffusion.pdf)**: Literature Review on Discrete Diffusion papers I found useful.
+
+**[Hybrid Discrete-Continuous Diffusion for Architectural Design](https://github.com/Zullo2000/Hybrid_Floorplan_Generation_From_Bubbles_Public)**: Extends the discrete-only model to jointly generate room geometry (DDPM) and room types (MDLM) via a 63.5M-param dual-stream DiT. A three-layer inference guidance stack (CFG + energy + SVDD) pushes constraint satisfaction from 73% to 84.6% on full building floors. Built at Davis AI.
 
 **[Discrete Diffusion for Architectural Design](https://github.com/Zullo2000/BD_Generation_Public)**: A masked discrete diffusion model that generates valid residential floorplan graphs with inference-time constraint guidance, achieving 73.5% constraint satisfaction without retraining. Built at Davis AI. 
 
