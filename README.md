@@ -4,8 +4,6 @@
 
 I work on diffusion models, flow matching, and stochastic processes, with applications to discrete, continuous, and hybrid discrete-continuous domains. Current focus: constrained generation under mixed modalities (categorical + geometric), with inference-time guidance to enforce complex user constraints without retraining.
 
-Currently AI Engineer at **Davis AI** (Paris). Previously Quant Researcher at **CFM** (Paris).
-
 ---
 
 ### What I've worked on
